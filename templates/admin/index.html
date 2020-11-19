@@ -10,14 +10,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+        <link rel="shortcut icon" href="../static/admin/images/favicon.ico">
 
         <!-- App css -->
-        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="../assets/css/jquery-ui.min.css" rel="stylesheet">
-        <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="../assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
-        <link href="../assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/admin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/admin/css/jquery-ui.min.css" rel="stylesheet">
+        <link href="../static/admin/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/admin/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/admin/css/app.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -27,27 +27,27 @@
             <div class="main-icon-menu">
                 <a href="../crm/crm-index.html" class="logo logo-metrica d-block text-center">
                     <span>
-                        <img src="../assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                        <img src="../static/admin/images/logo-sm.png" alt="logo-small" class="logo-sm">
                     </span>
                 </a>
                 <nav class="nav">
-                    <a href="#MetricaDashboard" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Dashboard">
+                    <a href="#MetricaDashboard" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Əsas Səhifə">
                         <i data-feather="monitor" class="align-self-center menu-icon icon-dual"></i>
                     </a><!--end MetricaDashboards--> 
 
-                    <a href="#MetricaApps" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Apps">
+                    <a href="#MetricaApps" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Mağazalar">
                         <i data-feather="grid" class="align-self-center menu-icon icon-dual"></i>
                     </a><!--end MetricaApps-->
 
-                    <a href="#MetricaUikit" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="UI Kit">
+                    <a href="#MetricaUikit" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Zavodlar">
                         <i data-feather="package" class="align-self-center menu-icon icon-dual"></i>
                     </a><!--end MetricaUikit-->
 
-                    <a href="#MetricaPages" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Pages">
+                    <a href="#MetricaPages" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Tikinti sirketleri">
                         <i data-feather="copy" class="align-self-center menu-icon icon-dual"></i>             
                     </a><!--end MetricaPages-->
 
-                    <a href="#MetricaAuthentication" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Authentication">
+                    <a href="#MetricaAuthentication" class="nav-link" data-toggle="tooltip-custom" data-placement="right"  data-trigger="hover" title="" data-original-title="Gelir ve Xercler">
                         <i data-feather="lock" class="align-self-center menu-icon icon-dual"></i>
                     </a> <!--end MetricaAuthentication--> 
 
@@ -57,7 +57,7 @@
                         <i data-feather="message-circle" class="align-self-center menu-icon icon-md icon-dual mb-4"></i> 
                     </a>
                     <a href="" class="profile">
-                        <img src="../assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle thumb-sm"> 
+                        <img src="../static/admin/images/users/user-4.jpg" alt="profile-user" class="rounded-circle thumb-sm"> 
                     </a>
                 </div>
             </div><!--end main-icon-menu-->
@@ -67,8 +67,8 @@
                 <div class="topbar-left">
                     <a href="../crm/crm-index.html" class="logo">
                         <span>
-                            <img src="../assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
-                            <img src="../assets/images/logo.png" alt="logo-large" class="logo-lg logo-light">
+                            <img src="../static/admin/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                            <img src="../static/admin/images/logo.png" alt="logo-large" class="logo-lg logo-light">
                         </span>
                     </a>
                 </div>
@@ -76,54 +76,42 @@
                 <div class="menu-body slimscroll">                    
                      <div id="MetricaDashboard" class="main-icon-menu-pane">
                         <div class="title-box">
-                            <h6 class="menu-title">Dashboard</h6>       
+                            <h6 class="menu-title">Əsas səhifə</h6>       
                         </div>
                         <ul class="nav">
-                            <li class="nav-item"><a class="nav-link" href="../analytics/analytics-index.html">Analytic</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../crypto/crypto-index.html">Crypto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../crm/crm-index.html">CRM</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../projects/projects-index.html">Project</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="../ecommerce/ecommerce-index.html">Ecommerce</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../helpdesk/helpdesk-index.html">Helpdesk</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../hospital/hospital-index.html">Hospital</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../analytics/analytics-index.html">Giriş</a></li
+                            <li class="nav-item"><a class="nav-link" href="../analytics/analytics-index.html">Haqqimizda</a></li
+                                <li class="nav-item"><a class="nav-link" href="../analytics/analytics-index.html">Elaqe</a></li
                         </ul>
                     </div><!-- end Dashboards -->                
 
                     <div id="MetricaApps" class="main-icon-menu-pane">
                         <div class="title-box">
-                            <h6 class="menu-title">Apps</h6>
+                            <h6 class="menu-title">Mağazalar</h6>
                         </div>
                         <ul class="nav metismenu">
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript: void(0);"><span class="w-100">Email</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
-                                <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="../apps/email-inbox.html">Inbox</a></li>
-                                    <li><a href="../apps/email-read.html">Read Email</a></li>            
-                                </ul>            
-                            </li><!--end nav-item-->
-                            <li class="nav-item"><a class="nav-link" href="../apps/chat.html">Chat</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../apps/contact-list.html">Contact List</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../apps/calendar.html">Calendar</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../apps/invoice.html">Invoice</a></li>                            
+                            <li class="nav-item"><a class="nav-link" href=""></a>1001 Xirdavat</li>  
+                            <li class="nav-item"><a class="nav-link" href=""></a>Boya</li> 
+                            <li class="nav-item"><a class="nav-link" href=""></a>Armatur</li>
+                            <li class="nav-item"><a class="nav-link" href=""></a>Kerpic</li>
+                            <li class="nav-item"><a class="nav-link" href=""></a>Qapı/Pəncərə</li>
+                            <li class="nav-item"><a class="nav-link" href=""></a>Qarışıq Mallar</li>                                                                              
                         </ul>
                     </div><!-- end Crypto -->
                     
                     <div id="MetricaUikit" class="main-icon-menu-pane">
                         <div class="title-box">
-                            <h6 class="menu-title">UI Kit</h6>      
+                            <h6 class="menu-title">Zavodlar</h6>      
                         </div>
                         <ul class="nav metismenu">                                
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><span class="w-100">UI Elements</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                                <a class="nav-link" href="#"><span class="w-100">Kerpic Zavod</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="../others/ui-bootstrap.html">Bootstrap</a></li>
-                                    <li><a href="../others/ui-animation.html">Animation</a></li>
-                                    <li><a href="../others/ui-avatar.html">Avatar</a></li>
-                                    <li><a href="../others/ui-clipboard.html">Clip Board</a></li>
-                                    <li><a href="../others/ui-files.html">File Manager</a></li>
-                                    <li><a href="../others/ui-ribbons.html">Ribbons</a></li>
-                                    <li><a href="../others/ui-dragula.html">Dragula</a></li>
-                                    <li><a href="../others/ui-check-radio.html">Check & Radio</a></li>
+                                    <li><a href="../others/ui-bootstrap.html">Yevlax</a></li>
+                                    <li><a href="../others/ui-animation.html">Gilan</a></li>
+                                    <li><a href="../others/ui-avatar.html">Paşa</a></li>
+                                    <li><a href="../others/ui-clipboard.html">Klass</a></li>
+                                   
                                 </ul>            
                             </li><!--end nav-item-->
                             <li class="nav-item">
@@ -211,23 +199,23 @@
 
                     <div id="MetricaPages" class="main-icon-menu-pane">
                         <div class="title-box">
-                            <h6 class="menu-title">Pages</h6>        
+                            <h6 class="menu-title">Tikinti Şirkətləri</h6>        
                         </div>
                         <ul class="nav">
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-profile.html">Profile</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-tour.html">Tour</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-timeline.html">Timeline</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-treeview.html">Treeview</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-starter.html">Starter Page</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-blogs.html">Blogs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-faq.html">FAQs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../pages/pages-gallery.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-profile.html">Baku White City</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-tour.html">Kristal Abşeron</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-timeline.html">Xəzər İnşaat</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-treeview.html">Akkord</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-starter.html">Yeni Hayat</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-pricing.html">Bakıxanov Rezidens</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-blogs.html">Melissa Group</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-faq.html">Abşeron İnşaat</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../pages/pages-gallery.html">Olympus Park</a></li>
                         </ul>
                     </div><!-- end Pages -->
                     <div id="MetricaAuthentication" class="main-icon-menu-pane">
                         <div class="title-box">
-                            <h6 class="menu-title">Authentication</h6>     
+                            <h6 class="menu-title">Gelir/Xərclər</h6>     
                         </div>
                         <ul class="nav">
                             <li class="nav-item"><a class="nav-link" href="../authentication/auth-login.html">Log in</a></li>
@@ -257,14 +245,14 @@
                     <li class="hidden-sm">
                         <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="javascript: void(0);" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            English <img src="../assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt=""/> <i class="mdi mdi-chevron-down"></i> 
+                            English <img src="../static/admin/images/flags/us_flag.jpg" class="ml-2" height="16" alt=""/> <i class="mdi mdi-chevron-down"></i> 
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="javascript: void(0);"><span> German </span><img src="../assets/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> Italian </span><img src="../assets/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> French </span><img src="../assets/images/flags/french_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> Spanish </span><img src="../assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> Russian </span><img src="../assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> German </span><img src="../static/admin/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> Italian </span><img src="../static/admin/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> French </span><img src="../static/admin/images/flags/french_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> Spanish </span><img src="../static/admin/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> Russian </span><img src="../static/admin/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
                         </div>
                     </li>
 
@@ -356,7 +344,7 @@
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            <img src="../assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle" /> 
+                            <img src="../static/admin/images/users/user-4.jpg" alt="profile-user" class="rounded-circle" /> 
                             <span class="ml-1 nav-user-name hidden-sm">Amelia <i class="mdi mdi-chevron-down"></i> </span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
@@ -379,7 +367,7 @@
                     <li>
                         <a href="../crm/crm-index.html">
                             <span class="responsive-logo">
-                                <img src="../assets/images/logo-sm.png" alt="logo-small" class="logo-sm align-self-center" height="34">
+                                <img src="../static/admin/images/logo-sm.png" alt="logo-small" class="logo-sm align-self-center" height="34">
                             </span>
                         </a>                        
                     </li>                      
@@ -404,16 +392,16 @@
                                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img src="../assets/images/dashboard/dash-1.png" class="d-block img-fluid" alt="...">
+                                                <img src="../static/admin/images/dashboard/dash-1.png" class="d-block img-fluid" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="../assets/images/dashboard/dash-4.png" class="d-block img-fluid" alt="...">
+                                                <img src="../static/admin/images/dashboard/dash-4.png" class="d-block img-fluid" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="../assets/images/dashboard/dash-2.png" class="d-block img-fluid" alt="...">
+                                                <img src="../static/admin/images/dashboard/dash-2.png" class="d-block img-fluid" alt="...">
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="../assets/images/dashboard/dash-3.png" class="d-block img-fluid" alt="...">
+                                                <img src="../static/admin/images/dashboard/dash-3.png" class="d-block img-fluid" alt="...">
                                             </div>                                            
                                         </div>                                        
                                     </div>                                    
@@ -505,7 +493,7 @@
                                 <div class="tab-content">
                                     <div class="tab-pane active " id="ActivityTab" role="tabpanel">
                                         <div class="bg-light mx-n3">
-                                            <img src="../assets/images/small/img-1.gif" alt="" class="d-block mx-auto my-4" height="180">
+                                            <img src="../static/admin/images/small/img-1.gif" alt="" class="d-block mx-auto my-4" height="180">
                                         </div>
                                         <div class="slimscroll scroll-rightbar">
                                             <div class="activity">
@@ -599,7 +587,7 @@
                                         <div class="slimscroll scroll-rightbar">
                                             <div class="p-2">
                                                 <div class="media mb-3">
-                                                    <img src="../assets/images/widgets/project3.jpg" alt="" class="thumb-lg rounded-circle">                                      
+                                                    <img src="../static/admin/images/widgets/project3.jpg" alt="" class="thumb-lg rounded-circle">                                      
                                                     <div class="media-body align-self-center text-truncate ml-3">
                                                         <p class="text-success font-weight-semibold mb-0 font-14">Project</p>
                                                         <h4 class="mt-0 mb-0 font-weight-semibold text-dark font-18">Payment App</h4>                                            
@@ -674,17 +662,17 @@
 
 
         <!-- jQuery  -->
-        <script src="../assets/js/jquery.min.js"></script>
-        <script src="../assets/js/jquery-ui.min.js"></script>
-        <script src="../assets/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/js/metismenu.min.js"></script>
-        <script src="../assets/js/waves.js"></script>
-        <script src="../assets/js/feather.min.js"></script>
-        <script src="../assets/js/jquery.slimscroll.min.js"></script>
+        <script src="../static/admin/js/jquery.min.js"></script>
+        <script src="../static/admin/js/jquery-ui.min.js"></script>
+        <script src="../static/admin/js/bootstrap.bundle.min.js"></script>
+        <script src="../static/admin/js/metismenu.min.js"></script>
+        <script src="../static/admin/js/waves.js"></script>
+        <script src="../static/admin/js/feather.min.js"></script>
+        <script src="../static/admin/js/jquery.slimscroll.min.js"></script>
         <script src="../plugins/apexcharts/apexcharts.min.js"></script> 
         
         <!-- App js -->
-        <script src="../assets/js/app.js"></script>
+        <script src="../static/admin/js/app.js"></script>
         
     </body>
 
